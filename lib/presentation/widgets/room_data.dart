@@ -99,7 +99,7 @@ class RoomData extends StatelessWidget {
               AppStrings.detailsRoom,
               style: AppTextStyles.blue16,
             ),
-            sizeBoxH14,
+            sizeBoxW14,
             SvgPicture.asset(
               AppAssets.vectorRight,
               colorFilter: const ColorFilter.mode(
