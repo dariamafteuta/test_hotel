@@ -8,7 +8,7 @@ class CustomFormInfo extends StatefulWidget {
   final String hintText;
   final TextInputType keyboardType;
   final TextEditingController controller;
-  final String Function(String?) validator;
+  final String? Function(String?) validator;
 
   const CustomFormInfo({
     Key? key,
@@ -42,7 +42,7 @@ class _CustomFormInfoState extends State<CustomFormInfo> {
 
   void _updateLabel() {
     String newText;
-    if (_focusNode.hasFocus) {
+    if (_focusNode.hasFocus || widget.controller.text.isNotEmpty) {
       newText = '\n${widget.labelText}';
     } else {
       newText = widget.labelText;

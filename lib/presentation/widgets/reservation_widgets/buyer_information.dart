@@ -60,7 +60,7 @@ class _BuyerInformationState extends State<BuyerInformation> {
                         if (value == null || value.isEmpty) {
                           return AppStrings.enterNumberPhone;
                         }
-                        return '';
+                        return null;
                       }),
                   sizeBoxH8,
                   CustomFormInfo(
@@ -74,7 +74,7 @@ class _BuyerInformationState extends State<BuyerInformation> {
                           !EmailValidator.validate(value)) {
                         return AppStrings.enterEmail;
                       }
-                      return '';
+                      return null;
                     },
                   ),
                 ],

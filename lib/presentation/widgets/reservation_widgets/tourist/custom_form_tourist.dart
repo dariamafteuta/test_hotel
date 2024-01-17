@@ -7,7 +7,7 @@ class CustomFormTourist extends StatefulWidget {
   final String labelText;
   final TextInputType keyboardType;
   final TextEditingController controller;
-  final String Function(String?) validator;
+  final String? Function(String?) validator;
 
   const CustomFormTourist({
     Key? key,
@@ -40,7 +40,7 @@ class _CustomFormTouristState extends State<CustomFormTourist> {
 
   void _updateLabel() {
     String newText;
-    if (_focusNode.hasFocus) {
+    if (_focusNode.hasFocus || widget.controller.text.isNotEmpty) {
       newText = '\n${widget.labelText}';
     } else {
       newText = widget.labelText;

@@ -101,7 +101,7 @@ class _TouristState extends State<Tourist> with SingleTickerProviderStateMixin {
                             if (value == null || value.isEmpty) {
                               return AppStrings.enterName;
                             }
-                            return '';
+                            return null;
                           },
                         ),
                         sizeBoxH8,
@@ -113,7 +113,7 @@ class _TouristState extends State<Tourist> with SingleTickerProviderStateMixin {
                             if (value == null || value.isEmpty) {
                               return AppStrings.enterSurname;
                             }
-                            return '';
+                            return null;
                           },
                         ),
                         sizeBoxH8,
@@ -125,7 +125,7 @@ class _TouristState extends State<Tourist> with SingleTickerProviderStateMixin {
                             if (value == null || value.isEmpty) {
                               return AppStrings.enterData;
                             }
-                            return '';
+                            return null;
                           },
                         ),
                         sizeBoxH8,
@@ -137,7 +137,7 @@ class _TouristState extends State<Tourist> with SingleTickerProviderStateMixin {
                             if (value == null || value.isEmpty) {
                               return AppStrings.enterCitizenship;
                             }
-                            return '';
+                            return null;
                           },
                         ),
                         sizeBoxH8,
@@ -149,7 +149,7 @@ class _TouristState extends State<Tourist> with SingleTickerProviderStateMixin {
                               if (value == null || value.isEmpty) {
                                 return AppStrings.enterPassportNumber;
                               }
-                              return '';
+                              return null;
                             }),
                         sizeBoxH8,
                         CustomFormTourist(
@@ -160,7 +160,7 @@ class _TouristState extends State<Tourist> with SingleTickerProviderStateMixin {
                             if (value == null || value.isEmpty) {
                               return AppStrings.enterPassportValidity;
                             }
-                            return '';
+                            return null;
                           },
                         ),
                       ],
