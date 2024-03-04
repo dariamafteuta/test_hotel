@@ -10,7 +10,11 @@
 - Детальное описание каждого номера, включая фотографии и удобства.
 - Возможность бронирования номера.
 
-В приложение осуществлялась робота с API.
+## Технологический стек
+
+- API
+- Bloc
+- Figma
 
 ![Simulator Screenshot - iPhone 15 Pro - 2024-03-01 at 13 22 20](https://github.com/dariamafteuta/test_hotel/assets/107044001/b43d343a-c323-4861-936f-75a6759354e7)
 ![Simulator Screenshot - iPhone 15 Pro - 2024-03-01 at 13 22 14](https://github.com/dariamafteuta/test_hotel/assets/107044001/3a8ae897-14ca-4bfc-afa0-358c1fec1be3)
